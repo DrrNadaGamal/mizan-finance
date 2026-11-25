@@ -8,7 +8,7 @@ This is a portfolio demo. Everything runs on an invented family in Cairo (all na
 
 ## Try it
 
-Live demo: see the repository description. Sign in with a PIN (the PINs are public on purpose, this is a demo):
+Live demo: https://mizan-home.vercel.app — sign in with a PIN (the PINs are public on purpose, this is a demo):
 
 | PIN | Role | What it can do |
 | --- | --- | --- |
@@ -55,6 +55,8 @@ node e2e/shots.mjs http://localhost:3100                 # screenshots into docs
 ```
 
 The e2e run resets the demo data at the start and at the end.
+
+Verified: 24 unit tests and the full e2e suite (135 browser and API checks) run to completion green against the live deployment.
 
 ## Honest limits
 
